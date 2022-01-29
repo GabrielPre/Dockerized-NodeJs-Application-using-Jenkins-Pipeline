@@ -1,7 +1,7 @@
 FROM node:16
 
 # Create app directory
-WORKDIR /my-app
+WORKDIR /app
 
 # Bundle app source
 COPY . .
